@@ -51,6 +51,7 @@ body{
     border-radius: 50%;
     margin-left: 20%;
     margin-top: 35%;
+    animation: light infinite 3s;
     
 }
 
@@ -72,7 +73,21 @@ body{
     border-radius: 50%;
     margin-left: 20%;
     margin-top: 35%;
+    animation: light infinite 3s;
+
     
+}
+
+@keyframes light {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 /*--------------- MOUTH ----------------*/
